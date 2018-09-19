@@ -21,6 +21,8 @@ phases:
       ## テスト実行
       - npm test
 
+      - echo hogeeeeeee
+
       ## Dockerイメージのビルド
       - docker build -t $IMAGE_REPOSITORY_NAME:$IMAGE_TAG .
 
